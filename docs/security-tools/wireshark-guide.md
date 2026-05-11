@@ -73,9 +73,13 @@ In this exercise, we will "leak" fake credentials on an unsecured website and fi
 
 **Step 1:** Start a Wireshark capture on your network.
 **Step 2:** Access the demo website.
+
 ![Testfire Home](/img/testfire-home.png)
+
 **Step 3:** Click on "Online Banking Login" and enter a fake username and password.
+
 ![Login Screen](/img/testfire-login.png)
+
 **Step 4:** Click Login, then go back to Wireshark and click the **Red square** to stop the capture.
 **Step 5:** In the filter bar, type: `http.request.method == "POST"` and hit Enter.
 **Step 6:** Click on the packet, and in the details pane, expand **"HTML Form URL Encoded"**.
