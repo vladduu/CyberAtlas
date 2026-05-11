@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'CyberAtlas',
-  tagline: 'Cybersecurity Knowledge Base & CTF Toolkit',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   future: {
